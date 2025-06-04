@@ -4,18 +4,32 @@
     <head>
         <meta charset="UTF-8">
         <title>Enes's Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Enes Öztürk's Resume</h1>
-        <img src="./assets/images/profil.jpg" alt="profil of resume owner" width="190">
-        <hr />
-            <h2>Summary</h2>
-            <p>A versatile developer merging expertise in full stack web development and Python. Passionate about 
+        <div id="all">
+            <div id="above">
+                <h1>Enes Öztürk's Resume</h1>
+            <img src="./assets/images/profil.jpg" alt="profil of resume owner" width="190">
+            </div>
+            <hr />
+            <div id="summary">
+                <h2>Summary</h2>
+                <p>A versatile developer merging expertise in full stack web development and Python. Passionate about 
                 robotic technology and driven by a continuous desire to master innovative tech knowledge.
-            </p>
+                </p>
+            </div>
             <hr />
             <h2>Skills</h2> 
-            <h3>C</h3>
+            <div id="c">
+                <h3>C</h3>
+                <hr class="skills">
                 <ul>
                     <li>Variable concepts</li>
                     <li>Basic input-output operators</li>
@@ -35,8 +49,11 @@
                     <li>File Operations</li>
                     <li>Sequential-Access Files</li>
                     <li>Random-Access Files</li>
-                </ul>
-            <h3>Python</h3>
+                </ul>  
+            </div>
+            <div id="python">
+                <h3>Python</h3>
+                <hr class="skills">
                 <ul>
                     <li>Variable concept</li>
                     <li>Data types, Manipulate Strings</li>
@@ -68,7 +85,10 @@
                     <li>API Post Requests & Headers</li>
                     <li>Google Sheets & Sheety API usage</li>
                 </ul>
-            <h3>Full Stack Web Development</h3>
+            </div>
+            <div id="webdevelopment">
+                <h3>Full Stack Web Development</h3>
+                <hr class="skills">
                 <ul>
                     <li>Html heading & paragraph element</li>
                     <li>Html self closing tags</li>
@@ -78,18 +98,27 @@
                     <li>Multi-page websites</li>
                     <li>Html Boilerplate</li>
                 </ul>
-            <h3>Flutter Tool & Dart</h3>
+            </div>
+            <div id="flutter">
+                <h3>Flutter Tool & Dart</h3>
+                <hr class="skills">
                 <ul>
                     <li>not listed!..</li>
                 </ul>
+            </div>
             <hr />
-            <h2>Education-Work Experience</h2>
-            <p>Student in Karabük University. Individual experiences exist in Github, no work experiences.</p>
+            <div id="education">
+                <h2>Education-Work Experience</h2>
+                <p>Student in Karabük University. Individual experiences exist in Github, no work experiences.</p>
+            </div>
             <hr />
-                <h3><a href="./public/hobbies.html">Hobbies</a></h3>
-                <h3><a href="./public/contact.html">Contact Me</a></h3>
-        <footer>
-            <p>&copy; 2025 Created by Enes Öztürk. All rights reserved.</p>
-        </footer>
+            <div id="below">
+                    <h3><a href="./public/hobbies.html">Hobbies</a></h3>
+                    <h3><a href="./public/contact.html">Contact Me</a></h3>
+                <footer>
+                    <p>&copy; 2025 Created by Enes Öztürk. All rights reserved.</p>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>

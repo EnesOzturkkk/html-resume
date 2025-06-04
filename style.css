@@ -1,0 +1,50 @@
+li {
+    font-family: "Caveat", cursive;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    color: antiquewhite;
+    margin-right: 2%;
+}
+
+ul { list-style-type: none;}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    color: antiquewhite;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    font-style: normal;
+    color: antiquewhite;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    color: #EFE4D2; 
+}
+
+html {background-color: #131D4F;}
+#all {text-align: center;}
+a {color: #EFE4D2; }
+
+.skills {
+    width: 250px;
+}
